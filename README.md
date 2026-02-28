@@ -54,6 +54,10 @@ Then open http://localhost:3000 and select your JSON files.
 - **Doesn’t follow you back** – people you follow who don’t follow you  
 - **You don’t follow back** – people who follow you but you don’t follow
 
+## Privacy
+
+BackTrack Followers does not collect, store, or transmit your data to any server. All processing happens locally on your device. The files you select (followers and following) are read only when you choose them and are never uploaded or shared. The app does not connect to Instagram or any third-party analytics service. Your data stays on your device under your control.
+
 ## Support
 
 For questions or issues, [open an issue on GitHub](https://github.com/TitusNeyland/FollowUnfollow/issues).
