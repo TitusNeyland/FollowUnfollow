@@ -56,4 +56,4 @@ Then open http://localhost:3000 and select your JSON files.
 
 ## Support
 
-For questions or issues, [open an issue on GitHub](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) or contact [your@email.com](mailto:your@email.com).
+For questions or issues, [open an issue on GitHub](https://github.com/TitusNeyland/FollowUnfollow/issues).
