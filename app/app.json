@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "BackTrack Followers",
+    "slug": "backtrack-followers",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ChatGPT_Image_Feb_26__2026__07_45_45_PM-removebg-preview.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/ChatGPT_Image_Feb_26__2026__07_45_45_PM-removebg-preview.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.innova.backtrackfollowers",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#09090b",
+        "foregroundImage": "./assets/ChatGPT_Image_Feb_26__2026__07_45_45_PM-removebg-preview.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ChatGPT_Image_Feb_26__2026__07_45_45_PM-removebg-preview.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b54010e6-25b6-4913-8378-ad4ae56f8b2e"
+      }
+    }
+  }
+}

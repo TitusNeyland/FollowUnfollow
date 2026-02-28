@@ -1,23 +1,42 @@
 # Instagram Follow Back Checker
 
-A local, private tool that shows **who follows you back** and **who doesn’t** using your official Instagram data export. Nothing is sent to any server; everything runs in your browser.
+A local, private tool that shows **who follows you back** and **who doesn’t** using your official Instagram data export. Nothing is sent to any server; everything runs on your device.
 
-## Run locally
+## Mobile app (React Native / Expo)
 
-**Option 1 – Open the file**
+Run the app on your phone or simulator:
 
-- Double-click `index.html`, or  
-- Right-click → “Open with” → your browser (Chrome, Edge, Firefox, etc.)
+```bash
+cd app
+npm start
+```
 
-**Option 2 – Local server (optional)**
+Then:
+- **iOS**: Scan the QR code with the Camera app to open in Expo Go
+- **Android**: Scan with the Expo Go app
+- **Simulator**: Press `i` (iOS) or `a` (Android) in the terminal
 
-If you prefer serving it over HTTP:
+### How to use the mobile app
+
+1. Download your Instagram data (Settings → Accounts Center → Download your information → Followers and following, JSON).
+2. Unzip the archive on your device (use Files app or a file manager).
+3. Open the app, tap **Followers** and select `followers_1.json` (and add more if you have `followers_2.json`, etc.).
+4. Tap **Following** and select `following_1.json`.
+5. Tap **Compare lists** to see results.
+
+---
+
+## Web version
+
+For desktop use, open `index.html` in a browser or run:
 
 ```bash
 npx serve .
 ```
 
-Then open **http://localhost:3000** (or the URL shown in the terminal).
+Then open http://localhost:3000 and select your JSON files.
+
+---
 
 ## How to get your Instagram data
 
@@ -29,17 +48,12 @@ Then open **http://localhost:3000** (or the URL shown in the terminal).
    - `followers_1.json` (and `followers_2.json`, … if you have many followers)
    - `following_1.json`
 
-## How to use the site
+## Results
 
-1. Open `index.html` (or the local server URL).
-2. **Followers**: Select your `followers_1.json` (and any other `followers_*.json`).
-3. **Following**: Select your `following_1.json`.
-4. Click **Compare lists**.
+- **Follows you back** – people you follow who also follow you
+- **Doesn’t follow you back** – people you follow who don’t follow you  
+- **You don’t follow back** – people who follow you but you don’t follow
 
-You’ll see:
+## Support
 
-- **Follows you back** – people you follow who also follow you.
-- **Doesn’t follow you back** – people you follow who don’t follow you.
-- **You don’t follow back** – people who follow you but you don’t follow.
-
-All processing is done in your browser; your data is not uploaded anywhere.
+For questions or issues, [open an issue on GitHub](https://github.com/YOUR_USERNAME/YOUR_REPO/issues) or contact [your@email.com](mailto:your@email.com).
